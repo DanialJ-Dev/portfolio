@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" href="./images/logo.png">
+    <meta name="theme-color" content="#9966cc" >
+    <title>دانیال جدید توسعه دهنده وب</title>
+</head>
+<body>
+    <div class="navbar">
+    <nav class="header">
+        <h1 class="nav-title">دانیال <span>جدید</span></h1>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#">صفحه اصلی</a></li>
+            <li class="nav-item"><a href="#">مهارت‌ها</a></li>
+            <li class="nav-item"><a href="#">نمونه کار</a></li>
+            <li class="nav-item"><a href="#">تماس</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+</div>
+    <div class="container">
+        <div class="container-header">
+            <div class="pic">
+                <img src="./images/IMG_6053.jpg" alt="">
+            </div>
+            <div class="main-banner">
+                <h1>دانیال جدید</h1>
+                <h2>برنامه نویس فرانت اند</h2>
+                <div class="social-links">
+                    <a href="https://t.me/danial_jadid"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/danial-jadid-534498233"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/danial_jadid"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/danialj-dev"><i class="fa-brands fa-github"></i></a>
+                    </div>
+            </div>
+        </div>
+        <div class="about">
+            <h2 class="about-title">درباره <span>من</span></h2>
+            <p>سلام، من دانیالم. سال ۱۴۰۰ رشته کامپیوتر قبول شدم و به هوای اینکه قراره آینده شغلی و مالی خوبی داشته باشم رفتم دانشگاه ولی همون ترم اول متوجه شدم که همه چی رو تو دانشگاه یاد نمیدن و همین جرقه‌ای شد که بصورت خودآموز برم دنبال یادگیری طراحی سایت و برنامه نویسی که از قبل بهشون علاقه داشتم.</p>
+        </div>
+        <div class="info">
+            <ul class="info-list">
+                <li>
+                    <span class="title">سن</span>
+                    <span class="value">۲۰</span>
+                </li>
+                <li>
+                    <span class="title">محل سکونت</span>
+                    <span class="value">رشت</span>
+                </li>
+                <li>
+                    <span class="title">آدرس</span>
+                    <span class="value">شهرک قدس</span>
+                </li>
+                <li>
+                    <span class="title">ایمیل</span>
+                    <span class="value contact">jadid568@gmail.com</span>
+                </li>
+                <li>
+                    <span class="title">تلفن</span>
+                    <span class="value contact">۰۹۳۶۲۲۹۰۹۳۷</span>
+                </li>
+                <li>
+                    <span class="title">وضعیت</span>
+                    <span class="value">در حال یادگیری JS</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>تمامی حقوق این وبسایت محفوظ می‌باشد. <br>
+            Designed with ❤️ by Danial
+        </p>
+    </div>
+    <script>
+    // نمایش منوی موبایل
+    document.addEventListener('DOMContentLoaded', () => {
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navList = document.querySelector('.nav-list');
+
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('show');
+        });
+    });
+</script>
+</body>
+</html>
